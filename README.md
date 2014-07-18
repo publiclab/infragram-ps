@@ -5,11 +5,13 @@ Contents of the SD card to be used on the Infragram Point and Shoot - an open ha
 
 ****
 
-##Instructions
+The Infragram Point & Shoot is a handheld, battery powered mini camera (a modified Mobius Action Cam) for doing plant analysis. It has been modified at the factory to replace its infrared-blocking filter with a red filter, effectively exchanging its blue light channel for infrared light. This is based on a great deal of [research by Public Lab contributors](http://publiclab.org/tag/infragram) and was initially pioneered in our community by @nedhorning and @cfastie. See especially [these](http://publiclab.org/notes/cfastie/04-22-2014/mobius-ir-conversion) [two](http://publiclab.org/notes/cfastie/04-18-2014/mobius-filter-o-matic) research notes.  
 
-(copied from http://publiclab.org/wiki/infragram-point-shoot on July 15, 2014)
+Vineyards, large farms, and NASA all use [near-infrared photography](http://publiclab.org/wiki/near-infrared-camera) for assessing plant health, usually by mounting expensive sensors on airplanes and satellites. At [Public Lab](http://publiclab.org), we've developed a Do-It-Yourself way to take these kinds of photos, enabling us to monitor our environment through quantifiable data.
 
-The Infragram Point & Shoot is a handheld, battery powered mini camera (a modified Mobius Action Cam) for doing plant analysis. For any information, support, or troubleshooting not covered here, please look to [this epic thread about the Mobius Action Cam at RCGroups.com](http://www.rcgroups.com/forums/showthread.php?t=1904559). An official manual for the Mobius Action Cam can also be found here: http://mobius-actioncam.com/softwareuser-guide/
+[![5412520298_93873f36d0_o.png](http://i.publiclab.org/system/images/photos/000/005/386/medium/5412520298_93873f36d0_o.png)](http://i.publiclab.org/system/images/photos/000/005/386/original/5412520298_93873f36d0_o.png)
+
+Our technique uses a modified digital camera to capture near-infrared and red light in the same image, but in different color channels. We then post-process the image to attempt to infer how much it is photosynthesizing. This allows us to better understand and quantify how much of the available light plants are metabolizing into sugar via photosynthesis.
 
 ###Basics
 
@@ -17,19 +19,24 @@ Before you begin, to take useful plant analysis photos, you'll have to modify yo
 
 Some cameras may require a firmware upgrade to v1.20. If you've gotten your Infragram Point & Shoot from Public Lab's Kits initiative (through [Kickstarter](http://kickstarter.com/projects/publiclab/infragram-the-infrared-photography-project) or the [Public Lab store](http://store.publiclab.org)), both the config file and the v1.20 firmware should be on the SD card provided (in addition to this documentation!). However, you'll still have to load up the white balance file as described in "Installing config file" below.
 
+###Troubleshooting
+
+If you have trouble, please [post on this site](/post?tags=question:infragram&template:question) or [join the infrared discussion list](/lists). 
+
+For any information, support, or troubleshooting not covered here, please look to [this epic thread about the Mobius Action Cam at RCGroups.com](http://www.rcgroups.com/forums/showthread.php?t=1904559) which contains a great deal of information about using and modifying the camera. An official manual for the Mobius Action Cam can also be found here: http://mobius-actioncam.com/softwareuser-guide/
+
 ###Using the camera
 
 There are three basic modes to the camera, which you can switch through with the **M** button, and each shows a different color on the main LED. 
 
 [![modes.png](http://i.publiclab.org/system/images/photos/000/005/381/medium/modes.png)](http://i.publiclab.org/system/images/photos/000/005/381/original/modes.png)
 
+_(Artwork based on: http://publiclab.org/notes/mathew/05-10-2014/illustrating-infragram-point-shoot-instructions)_
 Once you've loaded the custom white balance in the config file (see below) and charged up the camera, you're ready to use it -- just turn it on, press **M** twice, until you see a RED light. Then you can use the "Shutter" button which looks like: <i class="icon icon-video-camera"></i>, to take photos. The red light will blink. 
 
 Images should look roughly like this:
 
 [![good-bad.png](http://i.publiclab.org/system/images/photos/000/005/383/medium/good-bad.png)](http://i.publiclab.org/system/images/photos/000/005/383/original/good-bad.png)
-
-If you have trouble, please [post on this site](/post?tags=question:infragram&template:question) or [join the infrared discussion list](/lists). 
 
 ###Installing config file
 
@@ -56,6 +63,8 @@ To start timelapse mode:
 
 [![timelapse.png](http://i.publiclab.org/system/images/photos/000/005/384/medium/timelapse.png)](http://i.publiclab.org/system/images/photos/000/005/384/original/timelapse.png)
 
+_(Artwork based on: http://publiclab.org/notes/mathew/05-10-2014/illustrating-infragram-point-shoot-instructions)_
+
 ###Updating firmware
 
 v1.20 firmware: 
@@ -71,3 +80,13 @@ Excerpted from [RCGroups.com](http://www.rcgroups.com/forums/showthread.php?t=19
     5. To confirm the firmware is being loaded into the camera, the BLUE LED will continue to blink during the upload process.
     6. When the FW installation is complete, the BLUE LED will turn off for about 2 sec. and the YELLOW LED will then turn on solid, indicating the FW file is has been automatically deleted from the memory card.
     7. You're done! The camera will be in the normal start-up standby mode ready for use.`
+
+###Resources
+
+Kit insert: <a href="http://i.publiclab.org/system/images/photos/000/005/388/original/infragram-ps-insert.pdf"><i class="icon icon-file"></i> infragram-ps-insert.pdf</a>
+
+<a href="http://i.publiclab.org/system/images/photos/000/005/390/original/timelapse.svg"><i class="icon icon-file"></i> timelapse.svg</a>
+
+<a href="http://i.publiclab.org/system/images/photos/000/005/389/original/modes.svg"><i class="icon icon-file"></i> modes.svg</a>
+
+
