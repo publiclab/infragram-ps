@@ -5,13 +5,15 @@ Contents of the SD card to be used on the Infragram Point and Shoot - an open ha
 
 ****
 
+**An up-to-date version of this documentation [will always be available on this page](http://publiclab.org/wiki/infragram-point-shoot)**
+
 The Infragram Point & Shoot is a handheld, battery powered mini camera (a modified Mobius Action Cam) for doing plant analysis. It has been modified at the factory to replace its infrared-blocking filter with a red filter, effectively exchanging its blue light channel for infrared light. This is based on a great deal of [research by Public Lab contributors](http://publiclab.org/tag/infragram) and was initially pioneered in our community by @nedhorning and @cfastie. See especially [these](http://publiclab.org/notes/cfastie/04-22-2014/mobius-ir-conversion) [two](http://publiclab.org/notes/cfastie/04-18-2014/mobius-filter-o-matic) research notes.  
 
 Vineyards, large farms, and NASA all use [near-infrared photography](http://publiclab.org/wiki/near-infrared-camera) for assessing plant health, usually by mounting expensive sensors on airplanes and satellites. At [Public Lab](http://publiclab.org), we've developed a Do-It-Yourself way to take these kinds of photos, enabling us to monitor our environment through quantifiable data.
 
 [![5412520298_93873f36d0_o.png](http://i.publiclab.org/system/images/photos/000/005/386/medium/5412520298_93873f36d0_o.png)](http://i.publiclab.org/system/images/photos/000/005/386/original/5412520298_93873f36d0_o.png)
 
-Our technique uses a modified digital camera to capture near-infrared and red light in the same image, but in different color channels. We then post-process the image to attempt to infer how much it is photosynthesizing. This allows us to better understand and quantify how much of the available light plants are metabolizing into sugar via photosynthesis.
+Our technique uses a modified digital camera to capture near-infrared and red light in the same image, but in different color channels. We then post-process the image to attempt to infer how much plants are photosynthesizing. This allows us to better understand and quantify how much of the available light plants are using to produce sugar via photosynthesis.
 
 ###Basics
 
@@ -23,8 +25,7 @@ Some cameras may require a firmware upgrade to v1.20. If you've gotten your Infr
 
 If you have trouble, please [post on this site](/post?tags=question:infragram&template:question) or [join the infrared discussion list](/lists). 
 
-For any information, support, or troubleshooting not covered here, please look to [this epic thread about the Mobius Action Cam at RCGroups.com](http://www.rcgroups.com/forums/showthread.php?t=1904559) which contains a great deal of information about using and modifying the camera. An official manual for the Mobius Action Cam can also be found here: http://mobius-actioncam.com/softwareuser-guide/
-
+For any information, support, or troubleshooting not covered here, please look to [this epic thread about the Mobius Action Cam at RCGroups.com](http://www.rcgroups.com/forums/showthread.php?t=1904559) which contains a great deal of information about using and modifying the camera. An official manual for the Mobius Action Cam can also be found here: <a href="http://mobius-actioncam.com/softwareuser-guide/" target="_blank" > http://mobius-actioncam.com/softwareuser-guide/ </a>
 ###Using the camera
 
 There are three basic modes to the camera, which you can switch through with the **M** button, and each shows a different color on the main LED. 
@@ -34,7 +35,7 @@ There are three basic modes to the camera, which you can switch through with the
 _(Artwork based on: http://publiclab.org/notes/mathew/05-10-2014/illustrating-infragram-point-shoot-instructions)_
 Once you've loaded the custom white balance in the config file (see below) and charged up the camera, you're ready to use it -- just turn it on, press **M** twice, until you see a RED light. Then you can use the "Shutter" button which looks like: <i class="icon icon-video-camera"></i>, to take photos. The red light will blink. 
 
-Images should look roughly like this:
+Images should look roughly like the "GOOD" example below -- vegetation should appear generally pastel blue. An incorrectly white-balanced image such as the "BAD" example below may appear with an overall reddish tint. This means the camera probably has not accepted your config file, possibly due to misformatting or incorrect uploading. 
 
 [![good-bad.png](http://i.publiclab.org/system/images/photos/000/005/383/medium/good-bad.png)](http://i.publiclab.org/system/images/photos/000/005/383/original/good-bad.png)
 
@@ -88,5 +89,6 @@ Kit insert: <a href="http://i.publiclab.org/system/images/photos/000/005/388/ori
 <a href="http://i.publiclab.org/system/images/photos/000/005/390/original/timelapse.svg"><i class="icon icon-file"></i> timelapse.svg</a>
 
 <a href="http://i.publiclab.org/system/images/photos/000/005/389/original/modes.svg"><i class="icon icon-file"></i> modes.svg</a>
+
 
 
